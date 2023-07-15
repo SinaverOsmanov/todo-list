@@ -81,7 +81,7 @@ export const TodoList = () => {
           onClick={() => addTodo(todoTitle)}
           className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 ml-2 rounded dark:bg-blue-800 disabled:bg-slate-600"
         >
-          Add
+          Добавить
         </Button>
       </div>
       <ul className="mt-4">
