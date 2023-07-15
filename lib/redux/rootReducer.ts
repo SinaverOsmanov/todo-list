@@ -1,6 +1,7 @@
-/* Instruments */
-import { counterSlice } from './slices'
+import { darkModeSlice } from "./slices/darkModeSlice";
+import { todoListSlice } from "./slices/todoListSlice";
 
 export const reducer = {
-  counter: counterSlice.reducer,
-}
+  todos: todoListSlice.reducer,
+  darkMode: darkModeSlice.reducer,
+};
