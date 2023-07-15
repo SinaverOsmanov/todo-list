@@ -1,29 +1,31 @@
-# Redux Toolkit TypeScript Example
+Шаг 1: Установка зависимостей
 
-This example shows how to integrate Next.js with [Redux Toolkit](https://redux-toolkit.js.org).
+Убедитесь, что у вас установлен Node.js на вашем компьютере. Если его нет, вы можете скачать и установить Node.js с официального сайта: https://nodejs.org
 
-The **Redux Toolkit** is a standardized way to write Redux logic (create actions and reducers, setup the store with some default middlewares like redux devtools extension). This example demonstrates each of these features with Next.js
+Перейдите в корневую папку вашего проекта и откройте командную строку или терминал.
 
-## Deploy your own
+Выполните команду npm install для установки всех зависимостей проекта.
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+Шаг 2: Запуск приложения
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-redux&project-name=with-redux&repository-name=with-redux)
+После установки зависимостей выполните команду npm run dev в командной строке или терминале.
 
-## How to use
+Приложение будет запущено на локальном сервере и будет доступно по адресу http://localhost:3000.
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+Откройте веб-браузер и перейдите по адресу http://localhost:3000, чтобы увидеть веб-приложение списка задач.
 
-```bash
-npx create-next-app --example with-redux with-redux-app
-```
+Шаг 3: Проверка функциональности
 
-```bash
-yarn create next-app --example with-redux with-redux-app
-```
+На главной странице приложения вы увидите заголовок "Список задач" и форму для добавления новых задач.
 
-```bash
-pnpm create next-app --example with-redux with-redux-app
-```
+Введите название задачи в поле ввода и нажмите кнопку "Add", чтобы добавить задачу в список.
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Добавленные задачи будут отображаться в виде списка с возможностью отметить их как выполненные, удалить их из списка.
+
+Используйте фильтр для отображения только выполненных или невыполненных задач.
+
+Попробуйте включить/отключить режим Dark Mode, если такой функционал реализован в вашем приложении.
+
+Проверьте, что все функциональности работают должным образом и веб-приложение ведет себя корректно.
+
+Это инструкция поможет вам запустить и проверить веб-приложение списка задач. Убедитесь, что ваши зависимости установлены и следуйте шагам в инструкции для запуска приложения на вашем локальном сервере.
